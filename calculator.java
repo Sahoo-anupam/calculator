@@ -1,6 +1,3 @@
-package awt;
-
-
 import java.awt.*;
 import java.awt.event.*;
 
@@ -8,9 +5,6 @@ public class calculator extends Frame implements ActionListener {
     TextField tf;
     String input = "";
     
-    /**
-     * 
-     */
     calculator() {
         setSize(400, 400);
         setLayout(null);
